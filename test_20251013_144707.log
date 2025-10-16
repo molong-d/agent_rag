@@ -1,0 +1,21 @@
+2025-10-13 14:47:08,737 - ERROR - RAG初始化功能测试失败: 'ABCMeta' object is not subscriptable
+Traceback (most recent call last):
+  File "G:\rag_trae\rag_project\test_environment.py", line 92, in test_environment
+    print(f"  - {ext}: {loader_info['name']}")
+TypeError: 'ABCMeta' object is not subscriptable
+2025-10-13 14:47:08,768 - ERROR - 代理功能测试失败: expression cannot contain assignment, perhaps you meant "=="? (agent.py, line 278)
+Traceback (most recent call last):
+  File "G:\rag_trae\rag_project\test_environment.py", line 101, in test_environment
+    from agent import SimpleCache, initialize_embeddings, load_vector_db, initialize_llm
+  File "G:\rag_trae\rag_project\agent.py", line 278
+    for chunk in qa_chain.stream("query"=question):
+                                 ^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+2025-10-13 14:47:08,774 - ERROR - 缓存功能测试失败: expression cannot contain assignment, perhaps you meant "=="? (agent.py, line 278)
+Traceback (most recent call last):
+  File "G:\rag_trae\rag_project\test_environment.py", line 116, in test_environment
+    from agent import SimpleCache
+  File "G:\rag_trae\rag_project\agent.py", line 278
+    for chunk in qa_chain.stream("query"=question):
+                                 ^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?

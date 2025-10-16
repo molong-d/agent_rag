@@ -1,0 +1,140 @@
+2025-10-13 14:06:29,706 - INFO - 问题：源升智能机器人的核心特点是什么？
+
+2025-10-13 14:06:29,706 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:06:29,707 - INFO - 1. 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:06:33,575 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:06:34,648 - INFO - 嵌入模型加载成功
+2025-10-13 14:06:34,649 - INFO - 2. 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:06:35,174 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:06:35,335 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:35,338 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:35,338 - INFO - 知识库加载成功
+2025-10-13 14:06:35,338 - INFO - 3. 开始初始化LLM: qwen3:4b
+2025-10-13 14:06:35,346 - INFO - LLM初始化成功
+2025-10-13 14:06:35,346 - INFO - 4. 开始创建问答链
+2025-10-13 14:06:35,348 - INFO - 问答链创建成功
+2025-10-13 14:06:35,348 - INFO - 3. 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:06:37,380 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:37,415 - INFO -    检索到 3 个相关文档片段
+2025-10-13 14:06:37,416 - INFO - 5. 调用模型生成回答
+2025-10-13 14:08:47,650 - INFO - 6. 回答生成完成
+2025-10-13 14:08:47,650 - INFO - 问题处理完成
+2025-10-13 14:10:59,599 - INFO - 问题：源升智能机器人的核心特点是什么？
+
+2025-10-13 14:10:59,599 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:10:59,599 - INFO - 1. 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:11:03,307 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:11:04,351 - INFO - 嵌入模型加载成功
+2025-10-13 14:11:04,351 - INFO - 2. 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:11:04,880 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:11:05,016 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:11:05,018 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:11:05,018 - INFO - 知识库加载成功
+2025-10-13 14:11:05,019 - INFO - 3. 开始初始化LLM: qwen3:4b
+2025-10-13 14:11:05,026 - INFO - LLM初始化成功
+2025-10-13 14:11:05,027 - INFO - 4. 开始创建问答链
+2025-10-13 14:11:05,028 - INFO - 问答链创建成功
+2025-10-13 14:11:05,028 - INFO - 3. 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:11:06,972 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:11:06,999 - INFO -    检索到 3 个相关文档片段
+2025-10-13 14:11:07,000 - INFO - 5. 调用模型生成回答
+2025-10-13 14:13:28,039 - INFO - 6. 回答生成完成
+2025-10-13 14:13:28,039 - INFO - 问题处理完成
+2025-10-13 14:13:55,525 - INFO - 问题：源升智能机器人的核心特点是什么？
+
+2025-10-13 14:13:55,525 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:13:55,525 - INFO - 1. 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:13:59,233 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:14:00,290 - INFO - 嵌入模型加载成功
+2025-10-13 14:14:00,290 - INFO - 2. 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:14:00,826 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:14:00,961 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:14:00,963 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:14:00,964 - INFO - 知识库加载成功
+2025-10-13 14:14:00,964 - INFO - 3. 开始初始化LLM: qwen3:4b
+2025-10-13 14:14:00,966 - INFO - LLM初始化成功
+2025-10-13 14:14:00,966 - INFO - 4. 开始创建问答链
+2025-10-13 14:14:00,967 - INFO - 问答链创建成功
+2025-10-13 14:14:00,967 - INFO - 3. 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:14:02,924 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:14:02,947 - INFO -    检索到 3 个相关文档片段
+2025-10-13 14:14:02,947 - INFO - 5. 调用模型生成回答
+2025-10-13 14:16:51,604 - INFO - 用户问题：源升智能机器人的核心特点是什么？
+2025-10-13 14:16:51,604 - INFO - 开始RAG流程处理，请稍候...
+2025-10-13 14:16:51,604 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:16:51,605 - INFO - [步骤1/6] 正在初始化嵌入模型...
+2025-10-13 14:16:51,605 - INFO - 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:16:55,344 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:16:56,429 - INFO - 嵌入模型加载成功
+2025-10-13 14:16:56,429 - INFO - [步骤2/6] 正在加载向量数据库...
+2025-10-13 14:16:56,430 - INFO - 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:16:56,993 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:16:57,137 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:16:57,139 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:16:57,140 - INFO - 知识库加载成功
+2025-10-13 14:16:57,140 - INFO - [步骤3/6] 正在初始化语言模型...
+2025-10-13 14:16:57,140 - INFO - 开始初始化LLM: qwen3:4b
+2025-10-13 14:16:57,142 - INFO - LLM初始化成功
+2025-10-13 14:16:57,142 - INFO - [步骤4/6] 正在创建问答链...
+2025-10-13 14:16:57,142 - INFO - 开始创建问答链
+2025-10-13 14:16:57,144 - INFO - 问答链创建成功
+2025-10-13 14:16:57,144 - INFO - [步骤5/6] 正在检索相关文档...
+2025-10-13 14:16:57,144 - INFO - 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:16:59,101 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:16:59,126 - INFO - 检索到 3 个相关文档片段
+2025-10-13 14:16:59,126 - INFO - [步骤6/6] 正在生成回答...
+2025-10-13 14:16:59,127 - INFO - 正在调用模型生成回答（可能需要几秒钟，请耐心等待...）
+2025-10-13 14:21:26,666 - INFO - 用户问题：源升智能机器人的核心特点是什么？
+2025-10-13 14:21:26,666 - INFO - 开始RAG流程处理，请稍候...
+2025-10-13 14:21:26,666 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:21:26,667 - INFO - [步骤1/6] 正在初始化嵌入模型...
+2025-10-13 14:21:26,667 - INFO - 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:21:30,468 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:21:31,551 - INFO - 嵌入模型加载成功
+2025-10-13 14:21:31,551 - INFO - [步骤2/6] 正在加载向量数据库...
+2025-10-13 14:21:31,552 - INFO - 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:21:32,067 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:21:32,203 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:21:32,205 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:21:32,205 - INFO - 知识库加载成功
+2025-10-13 14:21:32,206 - INFO - [步骤3/6] 正在初始化语言模型...
+2025-10-13 14:21:32,206 - INFO - 开始初始化LLM: gemma3:1b
+2025-10-13 14:21:32,207 - INFO - LLM初始化成功
+2025-10-13 14:21:32,208 - INFO - [步骤4/6] 正在创建问答链...
+2025-10-13 14:21:32,208 - INFO - 开始创建问答链
+2025-10-13 14:21:32,209 - INFO - 问答链创建成功
+2025-10-13 14:21:32,209 - INFO - [步骤5/6] 正在检索相关文档...
+2025-10-13 14:21:32,209 - INFO - 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:21:34,163 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:21:34,195 - INFO - 检索到 3 个相关文档片段
+2025-10-13 14:21:34,195 - INFO - [步骤6/6] 正在生成回答...
+2025-10-13 14:21:34,195 - INFO - 正在调用模型生成回答（可能需要几秒钟，请耐心等待...）
+2025-10-13 14:21:43,273 - INFO - 回答生成完成，用时: 9.08秒
+2025-10-13 14:21:43,273 - INFO - 问题处理完成
+2025-10-13 14:28:56,053 - INFO - 用户问题：源升智能机器人的核心特点是什么？
+2025-10-13 14:28:56,053 - INFO - 开始RAG流程处理，请稍候...
+2025-10-13 14:28:56,054 - INFO - 开始处理问题: 源升智能机器人的核心特点是什么？
+2025-10-13 14:28:56,054 - INFO - [步骤1/6] 正在初始化嵌入模型...
+2025-10-13 14:28:56,055 - INFO - 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:28:59,854 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:29:00,936 - INFO - 嵌入模型加载成功
+2025-10-13 14:29:00,936 - INFO - [步骤2/6] 正在加载向量数据库...
+2025-10-13 14:29:00,936 - INFO - 开始加载知识库: g:/rag_trae/rag_data/chroma_data
+2025-10-13 14:29:01,489 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:29:01,628 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:29:01,631 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:29:01,631 - INFO - 知识库加载成功
+2025-10-13 14:29:01,631 - INFO - [步骤3/6] 正在初始化语言模型...
+2025-10-13 14:29:01,631 - INFO - 开始初始化LLM: gemma3:1b
+2025-10-13 14:29:01,633 - INFO - LLM初始化成功
+2025-10-13 14:29:01,633 - INFO - [步骤4/6] 正在创建问答链...
+2025-10-13 14:29:01,633 - INFO - 开始创建问答链
+2025-10-13 14:29:01,634 - INFO - 问答链创建成功
+2025-10-13 14:29:01,635 - INFO - [步骤5/6] 正在检索相关文档...
+2025-10-13 14:29:01,635 - INFO - 开始检索相关文档，问题: 源升智能机器人的核心特点是什么？...
+2025-10-13 14:29:03,617 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:29:03,638 - INFO - 检索到 3 个相关文档片段
+2025-10-13 14:29:03,638 - INFO - [步骤6/6] 正在生成回答...
+2025-10-13 14:29:03,639 - INFO - 正在调用模型生成回答（可能需要几秒钟，请耐心等待...）
+2025-10-13 14:29:14,912 - INFO - 回答生成完成，用时: 11.27秒
+2025-10-13 14:29:14,912 - INFO - 问题处理完成

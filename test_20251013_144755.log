@@ -1,0 +1,5 @@
+2025-10-13 14:47:56,519 - ERROR - RAG初始化功能测试失败: 'ABCMeta' object is not subscriptable
+Traceback (most recent call last):
+  File "G:\rag_trae\rag_project\test_environment.py", line 92, in test_environment
+    print(f"  - {ext}: {loader_info['name']}")
+TypeError: 'ABCMeta' object is not subscriptable

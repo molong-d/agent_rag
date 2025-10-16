@@ -1,0 +1,92 @@
+2025-10-13 14:00:32,395 - INFO - ��ʼ���Ի�������...
+2025-10-13 14:00:32,402 - INFO - 1. ���Ŀ¼�ṹ...
+2025-10-13 14:00:32,416 - INFO -    �����ļ�: ['OmniHand �鶯��_����ҳ���.pdf', '�������ֻ����� - ����.pdf']
+2025-10-13 14:00:32,418 - INFO -    �����ļ�����: 1
+2025-10-13 14:00:32,420 - INFO - 
+2. �����ĵ�����...
+2025-10-13 14:00:33,930 - INFO - �Ѽ��� 6 ��PDF�ĵ�
+2025-10-13 14:00:33,931 - INFO - �Ѽ��� 0 ��TXT�ĵ�
+2025-10-13 14:00:33,932 - INFO - �Ѽ��� 0 ��Markdown�ĵ�
+2025-10-13 14:00:33,939 - INFO - 
+3. ����Ƕ��ģ�ͳ�ʼ��...
+2025-10-13 14:00:33,939 - INFO - 1. ��ʼ����Ƕ��ģ��: BAAI/bge-base-zh-v1.5
+2025-10-13 14:00:37,843 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:00:41,840 - INFO - 2. ��ʼ����֪ʶ��: G:/rag_data/chroma_data
+2025-10-13 14:00:42,441 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:00:42,661 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:00:42,664 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:05,670 - INFO - 开始测试环境配置...
+2025-10-13 14:06:05,670 - INFO - 1. 检查目录结构...
+2025-10-13 14:06:05,671 - INFO - 知识文档目录存在: G:/rag_data/knowledge_docs
+2025-10-13 14:06:05,671 - INFO -    包含文件: ['OmniHand 灵动款_商详页设计.pdf', '金海灵巧手机器人 - 副本.pdf']
+2025-10-13 14:06:05,671 - INFO - 模型目录存在: G:/rag_data/models/bge-base-zh-v1.5
+2025-10-13 14:06:05,672 - INFO -    包含文件数量: 1
+2025-10-13 14:06:05,672 - INFO - Chroma数据目录存在: G:/rag_data/chroma_data
+2025-10-13 14:06:05,672 - INFO - 
+2. 测试文档加载...
+2025-10-13 14:06:06,959 - INFO - 已加载 6 个PDF文档
+2025-10-13 14:06:06,960 - INFO - 已加载 0 个TXT文档
+2025-10-13 14:06:06,960 - INFO - 已加载 0 个Markdown文档
+2025-10-13 14:06:06,961 - INFO - 成功加载 6 个文档
+2025-10-13 14:06:06,962 - INFO - 分块详情：共 16 块
+2025-10-13 14:06:06,962 - INFO - 成功将文档分成 16 块
+2025-10-13 14:06:06,962 - INFO - 
+3. 测试嵌入模型初始化...
+2025-10-13 14:06:06,962 - INFO - 1. 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:06:10,856 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:06:11,947 - INFO - 嵌入模型加载成功
+2025-10-13 14:06:11,947 - INFO - 成功初始化嵌入模型
+2025-10-13 14:06:11,947 - INFO - 2. 开始加载知识库: G:/rag_data/chroma_data
+2025-10-13 14:06:12,496 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:06:12,660 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:12,662 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:06:12,662 - INFO - 知识库加载成功
+2025-10-13 14:06:12,662 - INFO - 成功加载向量数据库
+2025-10-13 14:06:12,662 - INFO - 
+环境测试完成！基本功能正常
+2025-10-13 14:09:22,309 - INFO - 开始初始化RAG知识库...
+2025-10-13 14:09:23,782 - INFO - 已加载 6 个PDF文档
+2025-10-13 14:09:23,783 - INFO - 已加载 0 个TXT文档
+2025-10-13 14:09:23,783 - INFO - 已加载 0 个Markdown文档
+2025-10-13 14:09:23,784 - INFO - 已加载 6 个文档
+2025-10-13 14:09:23,784 - INFO - 分块详情：共 16 块
+2025-10-13 14:09:23,785 - INFO - 文档分块完成，共 16 块
+2025-10-13 14:09:23,785 - INFO - 正在加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:09:34,419 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:09:39,115 - INFO - 模型已加载成功（缓存路径：G:/rag_data/models/bge-base-zh-v1.5
+2025-10-13 14:09:39,115 - INFO - 正在创建向量数据库，存储路径：G:/rag_data/chroma_data
+2025-10-13 14:09:40,119 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:09:40,372 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:09:40,374 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:09:46,480 - INFO - 使用本地文件模式创建Chroma数据库
+2025-10-13 14:09:46,483 - INFO - 知识库初始化完成！共处理 16 块，数据存于：G:/rag_data/chroma_data
+2025-10-13 14:09:46,484 - INFO - RAG知识库初始化成功完成！
+2025-10-13 14:26:16,243 - INFO - 开始测试环境配置...
+2025-10-13 14:26:16,244 - INFO - 1. 检查目录结构...
+2025-10-13 14:26:16,244 - INFO - 知识文档目录存在: g:/rag_trae/rag_data/knowledge_docs
+2025-10-13 14:26:16,244 - INFO -    包含文件: ['OmniHand 灵动款_商详页设计.pdf', '金海灵巧手机器人 - 副本.pdf']
+2025-10-13 14:26:16,245 - INFO - 模型目录存在: g:/rag_trae/rag_data/models/bge-base-zh-v1.5
+2025-10-13 14:26:16,245 - INFO -    包含文件数量: 1
+2025-10-13 14:26:16,245 - INFO - Chroma数据目录存在: g:/rag_trae/rag_data/chroma_data
+2025-10-13 14:26:16,246 - INFO - 
+2. 测试文档加载...
+2025-10-13 14:26:17,498 - INFO - 已加载 6 个PDF文档
+2025-10-13 14:26:17,499 - INFO - 已加载 0 个TXT文档
+2025-10-13 14:26:17,499 - INFO - 已加载 0 个Markdown文档
+2025-10-13 14:26:17,499 - INFO - 成功加载 6 个文档
+2025-10-13 14:26:17,500 - INFO - 分块详情：共 16 块
+2025-10-13 14:26:17,501 - INFO - 成功将文档分成 16 块
+2025-10-13 14:26:17,501 - INFO - 
+3. 测试嵌入模型初始化...
+2025-10-13 14:26:17,503 - INFO - 开始加载嵌入模型: BAAI/bge-base-zh-v1.5
+2025-10-13 14:26:21,173 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-zh-v1.5
+2025-10-13 14:26:22,258 - INFO - 嵌入模型加载成功
+2025-10-13 14:26:22,258 - INFO - 成功初始化嵌入模型
+2025-10-13 14:26:22,259 - INFO - 开始加载知识库: g:/rag_trae/rag_data/chroma_data
+2025-10-13 14:26:22,778 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-13 14:26:22,918 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:26:22,920 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-10-13 14:26:22,920 - INFO - 知识库加载成功
+2025-10-13 14:26:22,920 - INFO - 成功加载向量数据库
+2025-10-13 14:26:22,921 - INFO - 
+环境测试完成！基本功能正常
