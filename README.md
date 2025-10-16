@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG项目：基于本地知识库的智能问答系统
 
 本项目是一个在Windows 10环境下运行的基于RAG（检索增强生成）技术构建的AI代理系统。它使用本地部署的模型和数据库，实现了文档加载、分块、向量化存储和智能问答功能。
@@ -210,4 +211,4 @@ docker run -v G:/rag_data/knowledge_docs:/app/data/knowledge_docs -v G:/rag_data
 
 ## 许可证
 
-MIT License
+# agent_rag
